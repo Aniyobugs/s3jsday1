@@ -16,3 +16,16 @@ function validate() {
     return true;
   }
 }
+/*
+// To check email is coorect or not using regular expression
+function validate() {
+    let regex= /^([a-zA-Z0-9.-]+)@([a-zA-Z0-9\-]+)\.([a-z]{2,3})(\.[a-z]{2,3})?$/
+    if (regex.test(user.value)) {
+        return true;
+    } else {
+        alert("Email is invalid")
+        return false;
+    }
+    
+}
+*/
